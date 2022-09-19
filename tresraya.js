@@ -37,8 +37,8 @@ function setValue(board, row, col, value) {
 const getValue = (board, row, col) => {
     return board[row][col]
 }
-
-
+ 
+  
 const btn = document.getElementById('0_0');
 btn.addEventListener('click', function(){
 const myInsertText = 'O';
