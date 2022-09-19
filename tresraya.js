@@ -32,7 +32,7 @@ function printBoard(board) {
 function setValue(board, row, col, value) {
     board[row][col] = value
 }
-
+ 
 //function getValue(board, row, col) {
 const getValue = (board, row, col) => {
     return board[row][col]
