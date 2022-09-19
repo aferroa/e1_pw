@@ -44,7 +44,7 @@ btn.addEventListener('click', function(){
 const myInsertText = 'O';
 btn.innerHTML = myInsertText;})
 
-
+   
 
 function SiGano(board) {
     for (let i = 0; i < board.length; i++) {
